@@ -8,5 +8,5 @@ on:
 
 jobs:
   java:
-    uses: masatake0511/pipeline-template/.github/workflows/java_ci.yml@v1
+    uses: masatake0511/pipeline-template/.github/workflows/java_ci.yml@main
 
