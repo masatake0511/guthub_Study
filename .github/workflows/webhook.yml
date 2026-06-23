@@ -1,0 +1,11 @@
+name: Webhook-test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call:
+    if: github.event_name == 'workflow_dispatch'
+    uses: masatake0511/pipeline-template/.github/workflows/webhook.yml@main
+
+
